@@ -1,0 +1,66 @@
+#contact{
+    position: relative;
+  }
+
+  #contact::before{
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: rgba(150, 137, 141, 0.692)
+    
+  }
+
+  footer{
+      background: black;
+      color: white;
+      padding: 9px 20px;
+
+  }
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    width: 100%;
+  
+    
+}
+
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.form-group{
+   padding: 3px;
+   
+}
+
+.btn{
+    padding: 5px 10px;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(53, 40, 40);
+    border-radius: 5px;
+    font-weight: 10px;
+}
+
+

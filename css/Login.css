@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: url(../img/bg-login.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.container{
+   
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 36% ;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid #0B5345;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    color: #212F3C;
+    display: inline-block;
+}
+.Box{
+    width: 100%;
+    border-bottom: 2px solid #0B5345;
+    color: #212F3C;
+    border-radius: 5px;
+    margin: 33px 0px;
+    
+}
+.Box input{
+    background: none;
+    width: 75%;
+    padding: 10px 22px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: #094237;
+    border-radius: 10px;
+}
+.Box i{
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+    
+    
+    
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    
+    margin: 12px 5px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #117A65;
+    font-size: 20px;
+    background: none;
+    color: #212F3C;
+    font-weight: bold;
+}
+
+.form-new{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+    /* back button  */
+
+
+.emon{
+    display: flex;
+}
+.leftNav{
+    width: 50%;
+  
+}
+
+

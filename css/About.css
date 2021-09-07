@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contant{
+    margin-top: 2%;
+    margin-left: 30%;
+    text-align: center;
+    padding: 20px;
+    color:#424949; 
+}
+
+.contant01{
+    background: #ced4d48c;
+    width: 50%;
+    
+    font-size: 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-family: 'Allison', cursive;
+    
+ }
+
+.contant02{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color:#424949 ;
+    font-family: 'Playball', cursive;
+}
+.contant03{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #424949;
+    
+} 
+
+.adding{
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid #808B96;
+}
+
+.photo{
+    padding: 0 50px;
+}
+
+

@@ -1,0 +1,101 @@
+@media only screen and (max-width:1012px){
+
+                    /* Index Main file  */
+
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 430px;
+    }
+
+    .rightnav{
+        text-align: center;
+    }
+
+    
+    .burger{
+        display: block;
+    }
+
+    .fa-user{
+        position: absolute;
+        cursor: pointer;
+        right: 10%;
+        top:15px;
+    }
+
+    .h-nav-resp{
+        height: 60px;
+
+    }
+
+    .v-nav-resp{
+        opacity: 0;
+    }
+
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.section{
+    flex-direction: column-reverse;
+    height: 1074px;
+}
+.firstsection {
+    height: 751px;
+}
+.text-small{
+text-align: center;
+}
+.text-big{
+text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+.secondhalf img{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+ 
+}
+         
+        /* service Responsive  */
+
+@media only screen and (max-width:992px){
+    .h-primary{
+        text-align: center;
+    }
+
+    #services{
+        flex-direction: column;
+    }
+
+}
+
+        /* About responsive  */
+
+@media only screen and (max-width:900px){
+    .adding{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contant{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contant03{
+        margin-bottom: 23px;
+    }
+
+}
